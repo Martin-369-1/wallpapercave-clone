@@ -1,0 +1,626 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #191c22;
+    width: 1057.8px;
+    
+    
+}
+
+.container{
+    width: 1057.8px;
+    height:4272px;
+    background: #191c22;
+}
+
+.header{
+    width: 100%;
+    height: 58.4px;
+    background-color: #222630;
+    padding-left: 207px;
+    padding-right: 207px;
+    display: block;
+
+}
+
+.header-logo{
+    width: 160px;
+    float: left;
+    margin-top: 10px;
+    display: block;
+}
+
+
+.header-search-input{
+    width: 210px;
+    height: 37px;
+    background-color: #191c22;
+    border: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-left: 31px;
+    margin-top: 10px;
+    float: left;
+    display: block;
+    padding-left: 10px;
+    color: white;
+}
+
+.header-search-input::placeholder{
+    color: #7c8796;
+}
+
+.header-search-icon{
+    height: 37px;
+    margin-top: 10px;
+    float: left;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+.header-menu{
+    width: 616px;
+    height: 100%;
+    margin-left:510px;
+    padding-top: 20px;
+    
+    
+
+}
+
+.header-menu-link-icon{
+    width: 11px;
+    float: left;
+    margin-top: 6px;
+}
+
+.header-menu-link-text{
+    color:white;
+    margin-left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: inline;
+}
+
+.header-menu-link1{
+    text-decoration:none;
+    margin-top: 2px;
+    display: block;
+    float: left;
+    
+}
+
+.header-menu-link2{
+    text-decoration:none;
+    margin-top: 2px;
+    display: block;
+    float: left;
+    margin-left: 36px;
+}
+
+.header-menu-link3{
+    text-decoration:none;
+    margin-top: 2px;
+    display: block;
+    float: left;
+    margin-left: 36px;
+
+}
+
+.header-menu-link4{
+    text-decoration:none;
+    margin-top: 2px;
+    display: block;
+    float: left;
+    margin-left: 36px;
+
+}
+
+.header-menu-link5{
+    text-decoration:none;
+    margin-top: 2px;
+    display: block;
+    float: left;
+    margin-left: 36px;
+
+}
+
+
+.account-create-button{
+    width: 100px;
+    width: 152px;
+    height: 33px;
+    background-color: #3a4152;
+    border: 0;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+
+.main-search{
+    width: 100%;
+    height: 371px;
+    background-color: yellow;
+    
+
+}
+
+.main-search-wallpaper{
+    width: 1472.8px;
+    height: 371px;
+    object-fit: cover;
+}
+
+.main-search-container{
+    width: 1058px;
+    height: 370px;
+    position: absolute;
+    top: 59px;
+    left: 208px;
+    
+
+
+}
+
+.main-search-container-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 37px;
+    font-weight: 200;
+    margin-left: 284px;
+    color: white;
+    margin-top: 92px;
+}
+
+.main-search-container-search-box{
+    margin-left: 209px;
+    margin-top: -12px;
+    width: 575px;
+    height: 57px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-right: 10px;
+    float: left;
+    border: 0;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.main-search-container-search-box::placeholder{
+    font-size: 17px;
+    color: #87949f;
+    
+    
+}
+
+.main-search-container-search-icon{
+    height: 59px;
+    position: absolute;
+    top: 166px;
+    left: 785px;
+    cursor: pointer;
+}
+
+.social-media{
+    width: 156px;
+    height: 35px;
+    margin-left: 465px;
+    margin-top: 126px;
+}
+
+.social-media-logo{
+    width: 35px;
+}
+
+.instagram{
+    margin-left: 22.5px;
+}
+
+.twitter{
+    margin-left: 20px;
+}
+
+.content{
+    width: 1060px;
+    height: 4011.8px;
+    margin-left: 209px;
+    text-align: center;
+    margin-top:0;
+}
+
+.content-title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #f9d34a;
+    text-underline-offset: 10px;
+    font-size: 15px;
+    
+}
+
+.content-trending-searches{
+    width: 1060px;
+    height: 36.8px;
+    margin-top: 34px;
+    margin-bottom: 60px;
+}
+
+.content-trending-searches-button{
+    height: 60%;
+    margin-top: 7px;
+    background-color: #3b4151;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.content-trending-searches-link{
+    text-decoration: none;
+}
+
+.grid-spacing{
+    width: 100%;
+    height: 20px;
+}
+
+.desktop-wallpapers{
+    display: grid;
+    grid-template-columns: 255px 255px 255px 255px;
+    column-gap: 12px;
+    margin-bottom: 12px;
+
+    
+    
+}
+
+.pc-wallpaper{
+    margin-right: 10px;
+    display: block;
+}
+
+.view-more-link{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 205px;
+}
+
+.albums{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    column-gap: 33px;
+    
+}
+
+.albums-box-color1{
+    width: 300px;
+    height: 111px;
+    background-color:  #222630;
+    padding-top: 17px;
+    padding-left: 30px;
+    
+}
+
+.albums-box-color2{
+    width: 300px;
+    height: 111px;
+    background-color:  #272c37;
+    padding-top: 17px;
+    padding-left: 30px;
+    
+}
+
+.thumbnail{
+    width: 93px;
+    height: 93px;
+    border-radius: 100%;
+    float: left;
+}
+
+.album-title{
+    color: white;
+    font-size: 16px;
+    margin-top: 21px;
+    display: inline block;
+    margin-right: 35px;
+    text-align: left;
+    margin-left: 107px;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    
+    
+
+}
+
+.album-describtion{
+    color: #8395a0;
+    margin-top: -8px;
+    margin-right: 78px;
+    font-family:-apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.link1{
+    text-decoration: none;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: 161px 161px 161px 161px 161px 161px;
+    column-gap: 21px;
+    
+}
+
+.user-box-color1{
+    width: 120px;
+    height: 182px;
+    background-color:#222630;
+    padding-top: 17px;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+
+.user-box-color2{
+    width: 120px;
+    height: 182px;
+    background-color:#272c37;
+    padding-top: 17px;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+
+
+
+
+.user-title{
+    color: white;
+    font-size: 16px;
+    margin-top: 119px;
+    display: block;
+    
+    text-align: left;
+    
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.user-describtiion{
+    color: #8d95a0;
+    margin-top: -6px;
+   
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.mobile-wallpapers{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    column-gap: 15px;
+    margin-bottom: 15px;
+}
+
+.newsletter{
+    width: 100%;
+    height: 110px;
+    
+    margin-top:30px;
+}
+
+.newsletter-image{
+    width: 100%;
+}
+
+.newsletter-input{
+    width: 760px;
+    height: 38px;
+    position: absolute;
+    top: 4345px;
+    left: 380px;
+    
+
+}
+
+.newsletter-text{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    margin: 0 40px 0 0;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    letter-spacing: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.newsletter-input-box{
+    width: 210px;
+    height: 37px;
+    background-color: white;
+    border: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-left: 31px;
+    margin-top: 0px;
+    float: left;
+    display: block;
+    padding-left: 10px;
+    color:rgb(196, 193, 193);
+    float: left;
+    
+    
+}
+
+.subscribe-button{
+    height: 39px;
+    width: 107.44px;
+    background-color: #fecc18;
+    color: black;
+    border: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-right: 47px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 1472.8px;
+    height: 276.2px;
+    background-color: #10131a;
+}
+
+.footer-content{
+    width: 1060px;
+    height: 276.2px;
+    position:absolute;
+    
+    top: 4474px;
+    left: 209px;
+}
+
+.footer-about-wallpapercave{
+    width: 250px;
+    height: 133.2px;
+    padding-top: 10px;
+    display: inline block;
+    float: left;
+}
+
+.footer-logo{
+    width: 160px;
+    margin-top: 10px;
+    display: block;
+}
+
+.text1{
+    font-size: 13px;
+    color: #525d6a;
+    line-height: 23px;
+}
+
+.footer-content-container{
+    padding-top: 10px;
+    width: 165px;
+    height: 162.2px;
+    margin-left: 100px;
+    font-family: Roboto, sans-serif;
+    float: left;
+    display: block;
+}
+
+
+
+.footer-content-container-title{
+    font-size: 15px;
+    color: #9aa7b8;
+    
+}
+
+hr.line1{
+    border-top: 0.5px solid #ffd30d;
+    border-bottom:0.5px solid #ffd30d;
+}
+
+.footer-links{
+    color:#525d6a;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-links:hover{
+    color: #84a7b8;
+    
+}
+
+.footer-facebook-button{
+    width: 138px;
+    height: 20px;
+    background-color: #1b76f2;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    
+}
+
+.footer-socialmedia-logo{
+    width: 16px;
+    float: left;
+    margin-right: 1px;
+    
+}
+
+.footer-facebook-button-text{
+    color:white;
+    font-size: 12px;
+    margin-top: 0px; 
+}
+
+.footer-instagram-button{
+    width: 138px;
+    height: 20px;
+    background-color: #1b76f2;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding-left: 0;
+    padding-top: 0;
+    cursor: pointer;
+}
+
+.footer-instagram-logo{
+    width: 138px;
+    height: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.footer-twitter-button{
+    width: 104px;
+    height: 20px;
+    background-color: white;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer-x-button-text{
+    color:black;
+    font-size: 12px;
+    margin-top: 0px; 
+
+}
+
+.footer-end{
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    top: 202px;
+    border-top: 1px solid #525d6a;
+    text-align: center;
+    
+}
+
+.always-ont-top-image{
+    width: 42px;
+    position: fixed;
+    top: 650px;
+    left: 1405px;
+
+}
+
+.footer-join-link{
+    text-decoration: none;
+    color: #525d6a;
+    font-weight: bold;
+}
+
